@@ -164,6 +164,16 @@ This will apply a change such as the following:
 +<Icon>home</Icon>
 ```
 
+### Drop Down Menu
+
+```diff
+-import DropDownMenu from 'material-ui/DropDownMenu';
++import Select from '@material-ui/core/Select';
+
+-<DropDownMenu></DropDownMenu>
++<Select value={this.state.value}></Select>
+```
+
 ### To be continued…
 
 Have you successfully migrated your app, and wish to help the community? Please help us! We have an open issue in order to finish this migration guide [#7195](https://github.com/mui-org/material-ui/issues/7195). Any pull request is welcomed
