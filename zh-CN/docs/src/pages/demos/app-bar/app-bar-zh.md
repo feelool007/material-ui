@@ -1,39 +1,39 @@
 ---
-title: App Bar React component
-components: AppBar, Toolbar, Menu
+title: 应用栏React组件
+components: 应用栏, 工具栏, 菜单
 ---
-# App Bar
+# 应用栏
 
-<p class="description">The App Bar displays information and actions relating to the current screen.</p>
+<p class="description">应用栏用来显示与当前屏幕相关的信息和操作。</p>
 
-The [top App Bar](https://material.io/design/components/app-bars-top.html) provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+[顶部应用栏](https://material.io/design/components/app-bars-top.html) 提供与当前屏幕相关的内容和操作。 它用于展示品牌、屏幕标题、导航和操作选项。
 
-It can transform into a contextual action bar or used as a navbar.
+它可以转换为上下文相关的操作栏或直接用作导航栏。
 
-## Simple App Bar
+## 简单的应用栏
 
 {{"demo": "pages/demos/app-bar/SimpleAppBar.js"}}
 
-## App Bar with buttons
+## 带有按钮的应用栏
 
 {{"demo": "pages/demos/app-bar/ButtonAppBar.js"}}
 
-## App Bar with menu
+## 带有菜单的应用栏
 
 {{"demo": "pages/demos/app-bar/MenuAppBar.js"}}
 
-## App Bar with search field
+## 带有搜索输入框的应用栏
 
-A side searchbar.
+一个靠边搜索栏。
 
 {{"demo": "pages/demos/app-bar/SearchAppBar.js"}}
 
-## App Bar with a primary search field
+## 搜索输入框为主的应用栏
 
 一个居中搜索栏
 
 {{"demo": "pages/demos/app-bar/PrimarySearchAppBar.js"}}
 
-## Dense (desktop only)
+## Dense (仅限桌面)
 
 {{"demo": "pages/demos/app-bar/DenseAppBar.js"}}
