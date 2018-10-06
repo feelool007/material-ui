@@ -30,7 +30,7 @@ A side searchbar.
 
 ## App Bar with a primary search field
 
-A primary searchbar.
+一个居中搜索栏
 
 {{"demo": "pages/demos/app-bar/PrimarySearchAppBar.js"}}
 
