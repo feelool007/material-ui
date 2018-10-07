@@ -6,7 +6,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 <p class="description">按钮允许用户只需轻按一下即可采取行动并做出选择。</p>
 
-[按钮](https://material.io/design/components/buttons.html) 传达用户可以执行的操作。 它们通常放置在整个UI中，例如： - 对话 - 模态窗口 - 形式 - 卡片 - 工具栏
+[按钮](https://material.io/design/components/buttons.html) 传达用户可以执行的操作。 它们通常放置在整个UI中，例如： - 对话 - 模态窗口 - 表单 - 卡片 - 工具栏
 
 ## 文本按钮
 
