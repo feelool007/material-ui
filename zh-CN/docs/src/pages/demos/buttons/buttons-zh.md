@@ -29,9 +29,9 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 {{"演示": "pages/demos/buttons/OutlinedButtons.js"}}
 
-## 控制按钮
+## 实心按钮
 
-[控制按钮](https://material.io/design/components/buttons.html#contained-button) 高度强调, 区别于他们使用的海拔和填充。 它们包含对应用程序具有主要作用的操作。
+[实心按钮](https://material.io/design/components/buttons.html#contained-button) 表示高度强调, 按照不同的填充颜色和立体效果来表示强调程度。 它们包含对应用程序具有主要作用的操作。
 
 此演示的最后一个示例显示了如何使用上传按钮。
 
@@ -39,19 +39,19 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 浮动操作按钮
 
-[浮动动作按钮](https://material.io/design/components/buttons-floating-action-button.html) (晶圆) 在屏幕上执行主要的或最常用的操作。 它出现在所有屏幕内容的前面, 通常作为圆形形状, 其中心有一个图标。 工厂有三种类型: 常规、迷你和扩展。
+[浮动动作按钮](https://material.io/design/components/buttons-floating-action-button.html) (FAB) 在屏幕上执行主要的或最常用的操作。 它出现在所有屏幕内容的前面, 通常作为圆形形状, 其中心有一个图标。 工厂有三种类型: 常规、迷你和扩展。
 
-如果它是最适合呈现屏幕主要操作的方式，则仅使用FAB。
+只在它是最适合呈现屏幕主要操作的方式时使用FAB。
 
-每个屏幕仅建议一个浮动操作按钮来表示最常见的操作。
+每个屏幕建议只有一个浮动操作按钮来表示最常见的操作。
 
 {{"演示": "pages/demos/buttons/FloatingActionButtons.js"}}
 
-默认情况下，浮动操作按钮会在屏幕上显示为扩展材料。
+默认情况下，浮动操作按钮会以展开的动画出现在屏幕上。
 
 跨越多个横向屏幕（例如标签式屏幕）的浮动操作按钮应该短暂消失， 然后如果其动作改变则重新出现。
 
-可以使用缩放转换来实现此目的。 注意，既然退出和进入 动画同时被触发，我们使用`enterDelay`来允许传出的浮动动作按钮 动画在新人进入之前完成。
+可以使用缩放转换来实现此目的。 注意，既然退出和进入 动画同时被触发，我们使用`enterDelay`来允许旧的浮动动作按钮动画在新按钮进入之前完成。
 
 {{"暗示": "pages/demos/buttons/FloatingActionButtonZoom.js"}}
 
@@ -65,11 +65,11 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 尺寸
 
-花式更大或更小的按钮？ 使用 `size` 或 `mini` 属性。
+喜欢更大或更小的按钮？ 使用 `size` 或 `mini` 属性。
 
 {{"演示": "pages/demos/buttons/ButtonSizes.js"}}
 
-### 使用图标和标签的按钮
+### 带有图标和标签的按钮
 
 有时您可能希望为某个按钮添加图标以增强应用程序的用户体验，因为我们比纯文本更容易识别徽标。 例如，如果您有删除按钮，则可以使用垃圾箱图标对其进行标记。
 
