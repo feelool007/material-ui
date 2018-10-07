@@ -69,38 +69,38 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 {{"演示": "pages/demos/buttons/ButtonSizes.js"}}
 
-### Buttons with icons and label
+### 使用图标和标签的按钮
 
-Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more easily than plain text. For example, if you have a delete button you can label it with a dustbin icon.
+有时您可能希望为某个按钮添加图标以增强应用程序的用户体验，因为我们比纯文本更容易识别徽标。 例如，如果您有删除按钮，则可以使用垃圾箱图标对其进行标记。
 
-{{"demo": "pages/demos/buttons/IconLabelButtons.js"}}
+{{"演示": "pages/demos/buttons/IconLabelButtons.js"}}
 
-## Customized Buttons
+## 自定义按钮
 
-If you have been reading the [overrides documentation page](/customization/overrides/) but you are not confident jumping in, here are examples of how you can change the main color of a Button using classes, and using a theme; and of a Bootstrap style Button.
+如果您一直在阅读[覆盖文档页面](/customization/overrides/) 但你不自信地跳进来， 以下是如何使用类更改Button的主要颜色的示例， 并使用主题; 以及Bootstrap样式按钮。
 
-{{"demo": "pages/demos/buttons/CustomizedButtons.js"}}
+{{"演示": "pages/demos/buttons/CustomizedButtons.js"}}
 
-## Complex Buttons
+## 复杂按钮
 
-The Text Buttons, Contained Buttons, Floating Action Buttons and Icon Buttons are built on top of the same component: the `ButtonBase`. You can take advantage of this lower level component to build custom interactions.
+文本按钮，包含按钮，浮动操作按钮和图标按钮构建在同一组件之上：`ButtonBase`。 您可以利用此较低级别组件来构建自定义交互。
 
-{{"demo": "pages/demos/buttons/ButtonBases.js"}}
+{{"演示": "pages/demos/buttons/ButtonBases.js"}}
 
-## Third-party routing library
+## 第三方路由库
 
-One common use case is to use the button to trigger a navigation to a new page. The `ButtonBase` component provides a property to handle this use case: `component`. Given that a lot of our interactive components rely on `ButtonBase`, you should be able to take advantage of it everywhere:
+一个常见的用例是使用按钮触发导航到新页面。 `ButtonBase` 组件提供了一个处理此用例的属性：`component`。 鉴于我们的许多交互式组件都依赖于 `ButtonBase`，你应该这样做 能够在任何地方利用它：
 
 ```jsx
 import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
 
 <Button component={Link} to="/open-collective">
-  Link
+  链接
 </Button>
 ```
 
-or if you want to avoid properties collisions:
+或者如果您想避免属性冲突：
 
 ```jsx
 import { Link } from 'react-router-dom'
@@ -109,8 +109,8 @@ import Button from '@material-ui/core/Button';
 const MyLink = props => <Link to="/open-collective" {...props} />
 
 <Button component={MyLink}>
-  Link
+  链接
 </Button>
 ```
 
-*Note: Creating `MyLink` is necessary to prevent unexpected unmounting. You can read more about it [here](/guides/composition/#component-property).*
+*注意：必须创建 `MyLink` 以防止意外卸载。 您可以在[此处](/guides/composition/#component-property)了解有关它的更多信息。*
