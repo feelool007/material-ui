@@ -10,7 +10,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 文本按钮
 
-[文本按钮](https://material.io/design/components/buttons.html#text-button) 通常用于不太明显的操作, 包括那些位于:
+[文本按钮](https://material.io/design/components/buttons.html#text-button) 通常用于不太需要强调的操作, 包括那些位于:
 
 - 在对话框中
 - 在卡片
@@ -21,11 +21,11 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 轮廓按钮
 
-[轮廓按钮](https://material.io/design/components/buttons.html#outlined-button) 是中等强调按钮。 它们包含重要的操作， 但不是应用程序中的主要操作。
+[描边按钮](https://material.io/design/components/buttons.html#outlined-button) 是中等强调按钮。 它们包含重要的操作， 但不是应用程序中的主要操作。
 
 ### 备选方案
 
-轮廓按钮也是包含按钮的低重点替代品， 或更高的重点替代文本按钮。
+描边按钮也可以用来作为比实心按钮次要一点按钮方案， 或者用来作为比文本按钮重要一点的按钮方案。
 
 {{"演示": "pages/demos/buttons/OutlinedButtons.js"}}
 
