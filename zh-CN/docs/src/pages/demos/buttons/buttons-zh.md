@@ -1,8 +1,8 @@
 ---
-title: Button React component
-components: Button, IconButton, ButtonBase, Zoom
+title: React 按钮组件
+components: 按钮、图标按钮、基础按钮、缩放
 ---
-# Buttons
+# 按钮
 
 <p class="description">Buttons allow users to take actions, and make choices, with a single tap.</p>
 
