@@ -1,6 +1,6 @@
 ---
 title: React 头像组件
-components: 头像
+components: Avatar
 ---
 # 头像
 
