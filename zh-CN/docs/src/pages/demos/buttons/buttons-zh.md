@@ -15,7 +15,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 - 在对话框中
 - 在卡片
 
-在卡片中，文本按钮有助于保持对卡片内容的重视。
+在卡片中，文本按钮有助于在卡片内容之上强调按钮的存在。
 
 {{"演示": "pages/demos/buttons/TextButtons.js"}}
 
@@ -77,13 +77,13 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 自定义按钮
 
-如果您一直在阅读[覆盖文档页面](/customization/overrides/) 但你不自信地跳进来， 以下是如何使用类更改Button的主要颜色的示例， 并使用主题; 以及Bootstrap样式按钮。
+如果您有阅读[“重写”文档](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是一些示例，包括使用classes属性更改Button的主要颜色， 直接使用主题和使用Bootstrap样式按钮。
 
 {{"演示": "pages/demos/buttons/CustomizedButtons.js"}}
 
 ## 复杂按钮
 
-文本按钮，包含按钮，浮动操作按钮和图标按钮构建在同一组件之上：`ButtonBase`。 您可以利用此较低级别组件来构建自定义交互。
+文本按钮，包含按钮，浮动操作按钮和图标按钮构建在同一组件之上：`ButtonBase`。 您可以利用此较底层的组件来构建自定义交互。
 
 {{"演示": "pages/demos/buttons/ButtonBases.js"}}
 
