@@ -21,53 +21,53 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 轮廓按钮
 
-[Outlined buttons](https://material.io/design/components/buttons.html#outlined-button) are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
+[轮廓按钮](https://material.io/design/components/buttons.html#outlined-button) 是中等强调按钮。 它们包含重要的操作， 但不是应用程序中的主要操作。
 
-### Alternatives
+### 备选方案
 
-Outlined buttons are also a lower emphasis alternative to contained buttons, or a higher emphasis alternative to text buttons.
+轮廓按钮也是包含按钮的低重点替代品， 或更高的重点替代文本按钮。
 
-{{"demo": "pages/demos/buttons/OutlinedButtons.js"}}
+{{"演示": "pages/demos/buttons/OutlinedButtons.js"}}
 
-## Contained Buttons
+## 控制按钮
 
-[Contained buttons](https://material.io/design/components/buttons.html#contained-button) are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+[控制按钮](https://material.io/design/components/buttons.html#contained-button) 高度强调, 区别于他们使用的海拔和填充。 它们包含对应用程序具有主要作用的操作。
 
-The last example of this demo show how to use an upload button.
+此演示的最后一个示例显示了如何使用上传按钮。
 
-{{"demo": "pages/demos/buttons/ContainedButtons.js"}}
+{{"演示": "pages/demos/buttons/ContainedButtons.js"}}
 
-## Floating Action Buttons
+## 浮动操作按钮
 
-A [floating action button](https://material.io/design/components/buttons-floating-action-button.html) (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
+[浮动动作按钮](https://material.io/design/components/buttons-floating-action-button.html) (晶圆) 在屏幕上执行主要的或最常用的操作。 它出现在所有屏幕内容的前面, 通常作为圆形形状, 其中心有一个图标。 工厂有三种类型: 常规、迷你和扩展。
 
-Only use a FAB if it is the most suitable way to present a screen’s primary action.
+如果它是最适合呈现屏幕主要操作的方式，则仅使用FAB。
 
-Only one floating action button is recommended per screen to represent the most common action.
+每个屏幕仅建议一个浮动操作按钮来表示最常见的操作。
 
-{{"demo": "pages/demos/buttons/FloatingActionButtons.js"}}
+{{"演示": "pages/demos/buttons/FloatingActionButtons.js"}}
 
-The floating action button animates onto the screen as an expanding piece of material, by default.
+默认情况下，浮动操作按钮会在屏幕上显示为扩展材料。
 
-A floating action button that spans multiple lateral screens (such as tabbed screens) should briefly disappear, then reappear if its action changes.
+跨越多个横向屏幕（例如标签式屏幕）的浮动操作按钮应该短暂消失， 然后如果其动作改变则重新出现。
 
-The Zoom transition can be used to achieve this. Note that since both the exiting and entering animations are triggered at the same time, we use `enterDelay` to allow the outgoing Floating Action Button's animation to finish before the new one enters.
+可以使用缩放转换来实现此目的。 注意，既然退出和进入 动画同时被触发，我们使用`enterDelay`来允许传出的浮动动作按钮 动画在新人进入之前完成。
 
-{{"demo": "pages/demos/buttons/FloatingActionButtonZoom.js"}}
+{{"暗示": "pages/demos/buttons/FloatingActionButtonZoom.js"}}
 
-## Icon Buttons
+## 图标按钮
 
-Icon buttons are commonly found in app bars and toolbars.
+图标按钮通常位于应用栏和工具栏中。
 
-Icons are also appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.
+图标也适用于允许选择单个选项的切换按钮或 取消选择，例如向项目添加或删除星标。
 
-{{"demo": "pages/demos/buttons/IconButtons.js"}}
+{{"演示": "pages/demos/buttons/IconButtons.js"}}
 
-## Sizes
+## 尺寸
 
-Fancy larger or smaller buttons? Use the `size` or the `mini` property.
+花式更大或更小的按钮？ 使用 `size` 或 `mini` 属性。
 
-{{"demo": "pages/demos/buttons/ButtonSizes.js"}}
+{{"演示": "pages/demos/buttons/ButtonSizes.js"}}
 
 ### Buttons with icons and label
 
