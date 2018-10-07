@@ -4,22 +4,22 @@ components: 按钮、图标按钮、基础按钮、缩放
 ---
 # 按钮
 
-<p class="description">Buttons allow users to take actions, and make choices, with a single tap.</p>
+<p class="description">按钮允许用户只需轻按一下即可采取行动并做出选择。</p>
 
-[Buttons](https://material.io/design/components/buttons.html) communicate actions that users can take. They are typically placed throughout your UI, in places like: - Dialogs - Modal windows - Forms - Cards - Toolbars
+[按钮](https://material.io/design/components/buttons.html) 传达用户可以执行的操作。 它们通常放置在整个UI中，例如： - 对话 - 模态窗口 - 形式 - 卡片 - 工具栏
 
-## Text Buttons
+## 文本按钮
 
-[Text buttons](https://material.io/design/components/buttons.html#text-button) are typically used for less-pronounced actions, including those located:
+[文本按钮](https://material.io/design/components/buttons.html#text-button) 通常用于不太明显的操作, 包括那些位于:
 
-- In dialogs
-- In cards
+- 在对话框中
+- 在卡片
 
-In cards, text buttons help maintain an emphasis on card content.
+在卡片中，文本按钮有助于保持对卡片内容的重视。
 
-{{"demo": "pages/demos/buttons/TextButtons.js"}}
+{{"演示": "pages/demos/buttons/TextButtons.js"}}
 
-## Outlined Buttons
+## 轮廓按钮
 
 [Outlined buttons](https://material.io/design/components/buttons.html#outlined-button) are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
 
