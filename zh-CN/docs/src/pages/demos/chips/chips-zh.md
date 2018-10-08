@@ -25,12 +25,12 @@ components: 纸片, 纸片视图
 
 {{"demo": "pages/demos/chips/OutlinedChips.js"}}
 
-## Chip Playground
+## 纸片区块
 
 {{"demo": "pages/demos/chips/ChipsPlayground.js"}}
 
-## Chip array
+## 纸片组
 
-An example of rendering multiple Chips from an array of values. Deleting a chip removes it from the array. Note that since no `onClick` property is defined, the Chip can be focused, but does not gain depth while clicked or touched.
+下面是一个通过组呈现多个纸片的示例。 删除纸片会将其从纸片组的队列中删除。 请注意，因为没有定义`onClick` 属性，所以这些纸片在被点击或触碰时可以获取焦点，但无法获取深度。
 
 {{"demo": "pages/demos/chips/ChipsArray.js"}}
