@@ -4,7 +4,7 @@ components: 卡片, 卡片操作区域, 卡片操作, 卡片内容, 卡片标题
 ---
 # 卡片
 
-<p class="description">卡片包含有和一个主题相关的内容和操作。</p>
+<p class="description">卡片包含和一个主题相关的内容和操作。</p>
 
 [卡片](https://material.io/design/components/cards.html) 是显示一个主题下内容和操作的容器。
 
