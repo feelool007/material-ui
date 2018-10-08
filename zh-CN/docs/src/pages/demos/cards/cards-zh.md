@@ -1,12 +1,12 @@
 ---
 title: React 卡片组件
-components: Card, CardActionArea, CardActions, CardContent, CardHeader, CardMedia, Collapse, Paper
+components: 卡片, 卡片操作区域, 卡片操作, 卡片内容, 卡片标题, 卡片媒体, 折叠, 纸张
 ---
-# Cards
+# 卡片
 
-<p class="description">Cards contain content and actions about a single subject.</p>
+<p class="description">卡片包含有和一个主题相关的内容和操作。</p>
 
-[Cards](https://material.io/design/components/cards.html) are surfaces that display content and actions on a single topic.
+[卡片](https://material.io/design/components/cards.html) 是显示一个主题下内容和操作的容器。
 
 They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
 
