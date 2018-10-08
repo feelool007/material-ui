@@ -4,15 +4,15 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 ---
 # 对话框
 
-<p class="description">Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.</p>
+<p class="description">对话框用来给用户一个任务，可以提示关键信息、可以让用户进行确认、或者包含多个任务。</p>
 
-A [Dialog](https://material.io/design/components/dialogs.html) is a type of [modal](/utils/modal/) window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
+[对话框](https://material.io/design/components/dialogs.html) 是 [模态](/utils/modal/) 窗体的一种类型, 通过显示在应用程序内容的前面，来提供关键信息的显示，或者要求用户进行确认和判断。 对话框在出现时会禁用应用程序的所有功能, 并在屏幕上保持固定, 直到被确认、被取消或已采取其他必要的操作。
 
-Dialogs are purposefully interruptive, so they should be used sparingly.
+对话框会带有目的性地中断用户体验，请谨慎使用。
 
-## Simple Dialogs
+## 单对话框
 
-Simple dialogs can provide additional details or actions about a list item. For example, they can display avatars, icons, clarifying subtext, or orthogonal actions (such as adding an account).
+单对话框可以提供有关列表项的详细信息或操作。 例如, 它们可以显示头像、图标、解释或交互操作 (如添加帐户)。
 
 Touch mechanics: - Choosing an option immediately commits the option and closes the menu - Touching outside of the dialog, or pressing Back, cancels the action and closes the dialog
 
