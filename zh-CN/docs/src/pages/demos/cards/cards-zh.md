@@ -36,6 +36,6 @@ components: 卡片, 卡片操作区域, 卡片操作, 卡片内容, 卡片标题
 
 ## 复杂交互
 
-在桌面上, 卡片内容可以进行扩展。
+在桌面上, 卡片内容可以展开。
 
 {{"demo": "pages/demos/cards/RecipeReviewCard.js"}}
