@@ -12,16 +12,16 @@ components: 纸片, 纸片视图
 
 ## 纸片, 纸片视图
 
-以下是纸片的一个例子, 使用了图像头像, SVG 图标头像, "字母" 和 (字符串) 头像。
+以下是纸片的一个例子, 使用了图片， SVG 图标，“字母” (和字符串) 来作为 头像。
 
-- 带有 `onClick` 属性的纸片定义了获得焦点时更改外观，尝试鼠标进行悬浮, 然后单击。
-- Chips with the `onDelete` property defined will display a delete icon which changes appearance on hover.
+- 带有 `onClick` 属性的纸片定义了在获得焦点、鼠标悬浮、单击时的动画。
+- 定义了`onDelete` 属性的纸片将显示一个删除图标, 并在鼠标悬浮时执行动画。
 
 {{"demo": "pages/demos/chips/Chips.js"}}
 
-### Outlined Chips
+### 轮廓纸片
 
-Outlined chips offer an alternative style.
+轮廓纸片提供了另一种风格。
 
 {{"demo": "pages/demos/chips/OutlinedChips.js"}}
 
