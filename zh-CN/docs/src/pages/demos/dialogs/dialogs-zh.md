@@ -14,17 +14,17 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 单对话框可以提供有关列表项的详细信息或操作。 例如, 它们可以显示头像、图标、解释或交互操作 (如添加帐户)。
 
-Touch mechanics: - Choosing an option immediately commits the option and closes the menu - Touching outside of the dialog, or pressing Back, cancels the action and closes the dialog
+触摸操作： -选择一个选项，可立即提交选项并关闭菜单 -在对话框外触摸或按下“返回”，将取消操作并关闭对话框。
 
 {{"demo": "pages/demos/dialogs/SimpleDialog.js"}}
 
-## Alerts
+## 警报
 
-Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation.
+警报是一种紧急中断的行为，用以通知用户某一情况并需要确认,。
 
-Most alerts don't need titles. They summarize a decision in a sentence or two by either: - Asking a question (e.g. "Delete this conversation?") - Making a statement related to the action buttons
+大多数警报不需要标题。 他们通过一两句话来总结一个决定: -问一个问题 (例如 "确认删除此对话？") -发表一个和动作按钮相关的声明
 
-Use title bar alerts only for high-risk situations, such as the potential loss of connectivity. Users should be able to understand the choices based on the title and button text alone.
+仅对高风险情况使用标题栏警报,，例如连接可能丢失。 用户应该仅根据标题和按钮文本，就能理解要做出的选择。
 
 If a title is required:
 
