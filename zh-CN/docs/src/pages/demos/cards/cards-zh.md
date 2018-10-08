@@ -22,20 +22,20 @@ components: 卡片, 卡片操作区域, 卡片操作, 卡片内容, 卡片标题
 
 {{"demo": "pages/demos/cards/MediaCard.js"}}
 
-默认情况下，我们使用给`<div>` 元素加一个 *背景图片* 的方式来显示多媒体元素。 但在某些情况下，可能会产生一些不可预知的问题。 例如, 您可能希望显示一个视频或一张响应式的图片。 Use the `component` property for these use cases:
+默认情况下，我们使用给`<div>` 元素加一个 *背景图片* 的方式来显示多媒体元素。 但在某些情况下，可能会产生一些不可预知的问题。 例如, 您可能希望显示一个视频或一张响应式的图片。 对于这些用例, 请使用 `组件` 的属性:
 
 {{"demo": "pages/demos/cards/ImgMediaCard.js"}}
 
-## UI Controls
+## UI控件
 
-Supplemental actions within the card are explicitly called out using icons, text, and UI controls, typically placed at the bottom of the card.
+卡片中的补充操作可使用图标、文本和 UI 控件显式调用, 通常放在一个卡片的底部。
 
-Here's an example of a media control card.
+下面是一个媒体控制卡片的例子。
 
 {{"demo": "pages/demos/cards/MediaControlCard.js"}}
 
-## Complex Interaction
+## 复杂交互
 
-On desktop, card content can expand.
+在桌面上, 卡片内容可以进行扩展。
 
 {{"demo": "pages/demos/cards/RecipeReviewCard.js"}}
