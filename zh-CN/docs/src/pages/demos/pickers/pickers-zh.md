@@ -6,7 +6,7 @@ components: TextField
 
 <p class="description">Pickers provide a simple way to select a single value from a pre-determined set.</p>
 
-- On mobile, pickers are best suited for display in confirmation dialog.
+- 在移动中, 拾取器最适合在确认对话框中显示。
 - For inline display, such as on a form, consider using compact controls such as segmented dropdown buttons.
 
 #### Notice
@@ -17,7 +17,7 @@ We are currently falling back to **native input controls**. If you are intereste
 
 ## Date pickers
 
-A native date picker example with `type="date"`, it can be used as a calendar too:
+一个原生日期选择器示例`type="date"`，它也可以用作日历：
 
 {{"demo": "pages/demos/pickers/DatePickers.js"}}
 
