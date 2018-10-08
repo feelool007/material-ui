@@ -26,7 +26,7 @@ A simple example with no frills.
 
 {{"demo": "pages/demos/tables/SimpleTable.js"}}
 
-## Sorting & Selecting
+## 排序&筛选
 
 This example demonstrates the use of `Checkbox` and clickable rows for selection, with a custom `Toolbar`. It uses the `TableSortLabel` component to help style column headings.
 
@@ -44,7 +44,7 @@ The `Action` property of the `TablePagination` component allows the implementati
 
 You can customize the look and feel of the table by overriding the styles of the `TableCell` component.
 
-{{"demo": "pages/demos/tables/CustomizedTable.js"}}
+{{"演示": "pages/demos/badges/SimpleBadge.js"}}
 
 ## Advanced use cases
 
