@@ -18,7 +18,7 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 {{"demo": "pages/demos/dialogs/SimpleDialog.js"}}
 
-## 警报
+## 警报框
 
 警报是一种紧急中断的行为，用以通知用户某一情况并需要确认,。
 
@@ -26,36 +26,36 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 仅对高风险情况使用标题栏警报,，例如连接可能丢失。 用户应该仅根据标题和按钮文本，就能理解要做出的选择。
 
-If a title is required:
+如果需要标题:
 
-- Use a clear question or statement with an explanation in the content area, such as "Erase USB storage?".
-- Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you sure?”
+- 在内容区域中使用明确的问题或声明, 例如 "擦除 USB 存储"。
+- 避免道歉、模棱两可或问题, 例如 "警告" 或 "你确定xxx吗？
 
 {{"demo": "pages/demos/dialogs/AlertDialog.js"}}
 
-You can also swap out the transition, the next example uses `Slide`.
+当然你也可以换掉过渡效果, 下面的示例使用了 `幻灯片`。
 
 {{"demo": "pages/demos/dialogs/AlertDialogSlide.js"}}
 
-## Confirmation dialogs
+## 确认对话框
 
-Confirmation dialogs require users to explicitly confirm their choice before an option is committed. For example, users can listen to multiple ringtones but only make a final selection upon touching “OK.”
+确认对话框要求用户在提交选项之前显式确认他们的选择。 例如, 用户可以聆听多个铃声, 但只在触摸 "OK" 时进行最后的选择。
 
-Touching “Cancel” in a confirmation dialog, or pressing Back, cancels the action, discards any changes, and closes the dialog.
+在确认对话框中触摸 "取消", 或按后退, 将会取消当前操作, 放弃任何更改, 并关闭对话框。
 
 {{"demo": "pages/demos/dialogs/ConfirmationDialog.js"}}
 
-## Full-screen dialogs
+## 全屏对话框
 
 {{"demo": "pages/demos/dialogs/FullScreenDialog.js"}}
 
-## Form dialogs
+## 表单对话框
 
-Form dialogs allow users to fill out form fields within a dialog. For example, if your site prompts for potential subscribers to fill in their email address, they can fill out the email field and touch 'Submit'
+表单对话框允许用户通过一个弹出的对话框，对表单进行填写。 在下面的例子中，你的网站提示那些潜在用户填写他们的电子邮箱，他们可以在点击之后填写email区域，并点击'提交'按钮以提交。
 
 {{"demo": "pages/demos/dialogs/FormDialog.js"}}
 
-## Responsive full-screen
+## 响应式全屏
 
 You may make a `Dialog` responsively full screen the dialog using `withMobileDialog`. By default, `withMobileDialog()(Dialog)` responsively full screens *at or below* the `sm` [screen size](/layout/basics/). You can choose your own breakpoint for example `xs` by passing the `breakpoint` argument: `withMobileDialog({breakpoint: 'xs'})(Dialog)`.
 
