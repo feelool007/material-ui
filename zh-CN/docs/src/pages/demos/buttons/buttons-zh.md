@@ -10,7 +10,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 文本按钮
 
-[文本按钮](https://material.io/design/components/buttons.html#text-button) 通常用于不太需要强调的操作, 包括那些位于:
+[文本按钮](https://material.io/design/components/buttons.html#text-button) 通常用于不太明显的操作, 包括那些位于:
 
 - 在对话框中
 - 在卡片
