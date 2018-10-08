@@ -57,15 +57,15 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 ## 响应式全屏
 
-You may make a `Dialog` responsively full screen the dialog using `withMobileDialog`. By default, `withMobileDialog()(Dialog)` responsively full screens *at or below* the `sm` [screen size](/layout/basics/). You can choose your own breakpoint for example `xs` by passing the `breakpoint` argument: `withMobileDialog({breakpoint: 'xs'})(Dialog)`.
+您可以使用 `withMobileDialog`, 使 `对话框` 响应式的全屏显示该对话框。 默认情况下, `withMobileDialog() (Dialog)` 响应式全屏 *处于或低于* `sm` [屏幕大小](/layout/basics/)。 你可以通过传递 `breakpoint`参数来选择你自己的断点，比如 `xs`：`withMobileDialog({breakpoint: 'xs'})(Dialog)`。
 
 {{"demo": "pages/demos/dialogs/ResponsiveDialog.js"}}
 
-## Accessibility
+## 无障碍功能
 
-Be sure to add `aria-labelledby="id..."`, referencing the modal title, to the `Dialog`. Additionally, you may give a description of your modal dialog with the `aria-describedby="id..."` property on the `Dialog`.
+一定要添加 `aria-labelledby="id..."`，来对` Dialog `引用模态框标题。 此外, 您还可以使用`对话框`的属性`aria-describedby="id..."`来描述您的模态对话框。
 
-## Scrolling long content
+## 滚动长内容
 
 When dialogs become too long for the user’s viewport or device, they scroll. - `scroll=paper` the content of the dialog scrolls within the paper element. - `scroll=body` the content of the dialog scrolls within the body element.
 
