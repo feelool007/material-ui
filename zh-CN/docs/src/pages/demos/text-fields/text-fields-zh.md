@@ -4,9 +4,9 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 ---
 # Text Fields
 
-<p class="description">Text fields let users enter and edit text.</p>
+<p class="description">用户可以在文本框内输入或编辑文字</p>
 
-[Text fields](https://material.io/design/components/text-fields.html) allow users to enter text into a UI. They typically appear in forms and dialogs.
+[文本框](https://material.io/design/components/text-fields.html)允许用户在界面中输入文本，通常，我们会在表单或者对话框中使用它们。
 
 ## TextField
 
@@ -16,13 +16,13 @@ The `TextField` wrapper component is a complete form control including a label, 
 
 ## Outlined
 
-`TextField` supports outlined styling.
+边框样式的`文本框`
 
 {{"demo": "pages/demos/text-fields/OutlinedTextFields.js"}}
 
 ## Filled
 
-`TextField` supports filled styling.
+填充样式的`文本框`
 
 {{"demo": "pages/demos/text-fields/FilledTextFields.js"}}
 
