@@ -8,21 +8,21 @@ components: 卡片, 卡片操作区域, 卡片操作, 卡片内容, 卡片标题
 
 [卡片](https://material.io/design/components/cards.html) 是显示一个主题下内容和操作的容器。
 
-They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+他们应该易用于查看相关内容且便于操作。诸如文本和图像的元素，应以能够清晰明确地表示层次结构的方式来展示。
 
-## Simple Card
+## 单卡片
 
-Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.
+尽管卡片支持多操作、多UI控件和过长的菜单，但请克制使用，切记，卡片只是那些复杂且详细信息的入口。
 
 {{"demo": "pages/demos/cards/SimpleCard.js"}}
 
-## Media
+## 多媒体内容
 
-Example of a card using an image to reinforce the content.
+下面是一个使用图像来增强内容的卡片示例。
 
 {{"demo": "pages/demos/cards/MediaCard.js"}}
 
-By default, we use the combination of a `<div>` element and a *background image* to display the media. It can be problematic in some situations. For instance, you might want to display a video or a responsive image. Use the `component` property for these use cases:
+默认情况下，我们使用给`<div>` 元素加一个 *背景图片* 的方式来显示多媒体元素。 但在某些情况下，可能会产生一些不可预知的问题。 例如, 您可能希望显示一个视频或一张响应式的图片。 Use the `component` property for these use cases:
 
 {{"demo": "pages/demos/cards/ImgMediaCard.js"}}
 
