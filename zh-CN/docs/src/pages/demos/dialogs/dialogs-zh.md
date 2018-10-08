@@ -65,10 +65,10 @@ components: 对话框、对话框标题、对话框内容、对话框内容文�
 
 一定要添加 `aria-labelledby="id..."`，来对` Dialog `引用模态框标题。 此外, 您还可以使用`对话框`的属性`aria-describedby="id..."`来描述您的模态对话框。
 
-## 滚动长内容
+## 长内容滚动
 
-When dialogs become too long for the user’s viewport or device, they scroll. - `scroll=paper` the content of the dialog scrolls within the paper element. - `scroll=body` the content of the dialog scrolls within the body element.
+当对话框根据用户不同的设备和视图大小变得很长时，可以让他们进行滚动。 - `scroll=paper` 可以使对话框的内容在paper元素中滚动。 - `scroll=body`可以使对话框的内容在body元素内滚动。
 
-Try the demo below to see what we mean:
+请尝试下面的例子来加深理解：
 
 {{"demo": "pages/demos/dialogs/ScrollDialog.js"}}
