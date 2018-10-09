@@ -40,7 +40,7 @@ components: Collapse, Divider, List, ListItem, ListItemAvatar, ListItemIcon, Lis
 
 ### 复选框
 
-A checkbox can either be a primary action or a secondary action.
+复选框可以是主操作或辅助操作。
 
 The checkbox is the primary action and the state indicator for the list item. The comment button is a secondary action and a separate target.
 
