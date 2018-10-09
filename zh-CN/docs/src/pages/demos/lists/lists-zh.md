@@ -6,39 +6,39 @@ components: Collapse, Divider, List, ListItem, ListItemAvatar, ListItemIcon, Lis
 
 <p class="description">列表是文本或图像的连续、垂直索引。</p>
 
-[Lists](https://material.io/design/components/lists.html) are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
+[列表](https://material.io/design/components/lists.html) 是一组连续的文本或图像。 它们由包含主要和补充操作的项目组成，这些操作由图标和文本表示。
 
-## Simple List
+## 简易列表
 
 {{"demo": "pages/demos/lists/SimpleList.js"}}
 
-## Folder List
+## 文件夹列表
 
 {{"demo": "pages/demos/lists/FolderList.js"}}
 
-## Inset List
+## 嵌入列表
 
 {{"demo": "pages/demos/lists/InsetList.js"}}
 
-## Nested List
+## 嵌套列表
 
 {{"demo": "pages/demos/lists/NestedList.js"}}
 
-## Selected ListItem
+## 可选的 ListItem
 
 {{"demo": "pages/demos/lists/SelectedListItem.js"}}
 
-## Pinned Subheader List
+## 固定 Subheader 列表
 
-Upon scrolling, subheaders remain pinned to the top of the screen until pushed off screen by the next subheader.
+滚动列表时，子标题保持固定在屏幕的顶端，直到被下一个子标题推离屏幕。
 
-This feature is relying on the CSS sticky positioning. Unfortunately it's [not implemented](https://caniuse.com/#search=sticky) by all the browsers we are supporting. We default to `disableSticky` when not supported.
+此功能依赖于 CSS sticky 定位。 不幸的是, 这一功能并未在我们支持的所有浏览器中 [实现](https://caniuse.com/#search=sticky) 。 如果不支持, 则默认为 `disableSticky`。
 
 {{"demo": "pages/demos/lists/PinnedSubheaderList.js"}}
 
-## List Controls
+## 列表控件
 
-### Checkbox
+### 复选框
 
 A checkbox can either be a primary action or a secondary action.
 
