@@ -4,9 +4,9 @@ components: BottomNavigation,BottomNavigationAction
 ---
 # 底部导航
 
-<p class="description">Bottom navigation bars allow movement between primary destinations in an app.</p>
+<p class="description">底部导航栏允许在应用程序的主要目的地之间跳转</p>
 
-[Bottom navigation](https://material.io/design/components/bottom-navigation.html) bars display three to five destinations at the bottom of a screen. Each destination is represented by an icon and an optional text label. When a bottom navigation icon is tapped, the user is taken to the top-level navigation destination associated with that icon.
+[底部导航栏](https://material.io/design/components/bottom-navigation.html)在屏幕下方显示三到五个导航项 每一个导航项都由一个图标和一个可选文本标签表示 当点击底部导航图标时，用户将被带到与该图标关联的目标页面顶部
 
 ## 底部导航
 
