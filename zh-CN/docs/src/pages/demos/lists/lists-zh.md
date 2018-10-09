@@ -1,10 +1,10 @@
 ---
-title: List React component
+title: React 列表组件
 components: Collapse, Divider, List, ListItem, ListItemAvatar, ListItemIcon, ListItemSecondaryAction, ListItemText, ListSubheader
 ---
-# Lists
+# 列表
 
-<p class="description">Lists are continuous, vertical indexes of text or images.</p>
+<p class="description">列表是文本或图像的连续、垂直索引。</p>
 
 [Lists](https://material.io/design/components/lists.html) are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
 
